@@ -158,6 +158,7 @@ a:focus {
 	width: 100%;
 	height: calc(100vh - 10rem);
 	display: grid;
+	color:white;
 	grid-template-columns: 33% 33% 33%;
 	grid-column-gap: 0.5%;
 	grid-template-rows: 100%;
@@ -305,6 +306,7 @@ a:focus {
 	top: 10rem;
 	left: 0;
 	width: 100%;
+	color:white;
 	height: calc(100% - 10rem);
 	pointer-events: none;
 	z-index: 100;
@@ -432,7 +434,7 @@ a:focus {
 		min-height: 50px;
 	}
 	.slide__side {
-		color: var(--color-side);
+		color: white;
 		position: relative;
 		-webkit-writing-mode: vertical-rl;
 		writing-mode: vertical-rl;
