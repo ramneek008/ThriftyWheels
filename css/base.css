@@ -123,8 +123,11 @@ a:focus {
 }
 
 .codrops-header__title {
-	font-size: 1rem;
-	font-weight: normal;
+	font-size: 2.5vw;
+	color:#C59E47;
+	font-family: 'Lacquer';
+	text-shadow: 0.1vw 0.1vw white;
+	font-weight: 0;
 	line-height: 1;
 	margin: 0;
 }
