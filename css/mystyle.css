@@ -175,6 +175,144 @@ body
     transition: all .2s ease-in; 
 } 
 
+
+@media (max-width:767px)
+{
+
+.row
+{
+	margin:2vw 0 4vw 0;
+}
+.imco
+{
+	width:50%;
+	height:50vw;
+}
+.imco img
+{
+	width:100%;
+	height:50vw;
+}
+.coli
+{
+	padding:1vw;
+}
+.fcont
+{
+	width:45%;
+	height:48vw;
+	padding:1vw;
+	margin-top: 1vw;
+	margin-bottom:3vw;
+}
+
+.fcont h1{
+	font-size: 3.5vw;
+	margin-top:4vw;
+	margin-bottom: 4vw;
+
+}
+
+.fcont p{
+	font-size: 2vw;
+}
+.fcont h2{
+	font-size: 2vw;
+}
+
+
+.fcont button{
+	font-size: 2vw;
+	letter-spacing: 0.4vw;
+	padding:1vw 1.6vw 1vw 1.6vw;
+	margin-top:3vw;
+}
+.fcont2{
+	width:45%;
+	height:48vw;
+	padding:1vw;
+	margin-top: 1vw;
+	margin-bottom:3vw;
+	display:none;
+}
+
+
+.fcont2 p{
+	padding:1vw;
+	font-size: 2vw;
+	margin-top:1.5vw;
+}
+.fcont2 button{
+	font-size: 2vw;
+	letter-spacing: 0.4vw;
+	padding:1vw 1.6vw 1vw 1.6vw;
+	margin-top:3vw;
+}
+
+}
+
+
+
+@media (max-width:320px)
+{
+
+.fcont
+{
+	width:45%;
+	height:48vw;
+	padding:1vw;
+	margin-top: 1vw;
+	margin-bottom:3vw;
+}
+
+.fcont h1{
+	font-size: 3.5vw;
+	margin-top:4vw;
+	margin-bottom: 3vw;
+
+}
+
+.fcont p{
+	font-size: 2.2vw;
+}
+.fcont h2{
+	margin-top:0px;
+	font-size: 2vw;
+}
+
+
+.fcont button{
+	font-size: 2vw;
+	letter-spacing: 0.4vw;
+	padding:1vw 1.6vw 1vw 1.6vw;
+	margin-top:1vw;
+}
+.fcont2{
+	width:45%;
+	height:48vw;
+	padding:1vw;
+	margin-top: 1vw;
+	margin-bottom:3vw;
+	display:none;
+}
+
+
+.fcont2 p{
+	padding:1vw;
+	font-size: 2vw;
+	margin-top:1.5vw;
+}
+.fcont2 button{
+	font-size: 2vw;
+	letter-spacing: 0.4vw;
+	padding:1vw 1.6vw 1vw 1.6vw;
+	margin-top:3vw;
+}
+
+}
+
+
+
 /*  ------------------------------------  *Latest cars *   -----------------------------------   */
 .carimages{
 	 max-width: 100%;
@@ -195,72 +333,29 @@ body
 	font-weight:600;
 	background-image: radial-gradient(#4d2600,#1a0d00,black,black);
 }
-@media screen and (min-width: 1366px){
-.latest-navleft{
-	width: 810px;
 
-}	
+
+
+@media screen and (min-width: 480px) and (max-width: 640px){
+	.latestcars h1{
+	font-size: 20pt;
 }
-@media screen and (max-width: 767px){
-.latestcars>h1{
-	font-size: 18px;
-	letter-spacing: 5px;
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+	.latestcars h1{
+	font-size: 15pt;
 	padding-top: 20px;
-	margin-top: 0px;
-	padding-bottom: 40px;
-}	
-.latest-navleft{
-	padding-bottom: 0px;
-	padding-bottom: 0px;
-	height: 186px;
-}
-.latest-navleft>li{
-	float: none;
-
-}
-.latestcars{
-	padding-bottom: 0px!important;
-}
- 
- 
- 
- .li-sortby{
- 	padding-bottom: 20px;
- }
- .sortby{
-font-weight: bold;
-}
-
-.latestcars{
-	text-align: center;
 	padding-bottom: 20px;
-}
-#hideonmobile{
-	visibility: hidden;
-}
-.latest-navleft{
-	width: 260px;
-
-}
-}
-@media screen and (min-width: 768px) and (max-width: 1067px){
-.sortby{
-	font-family: "OpenSans Regular";
-	font-size: 14px;
-	color: #262626;
-}
-.latestlist{
-	font-size: 12px;
  
 }
-.latest-navleft>li>a{
-padding-left: 0px;
-	}
-.latest-navleft{
-	width: 675px;
+}
 
 }
-}
+
+
+
+
+
 
 /*-----------------------------------Image Car Thumbnail --------------------------*/
 
@@ -281,13 +376,11 @@ padding-left: 0px;
   	-moz-transition: opacity 500ms;
   	-o-transition: opacity 500ms;
   	transition: opacity 500ms;
-
-
 }
  .stars{
- 	font-size: 7px;
-	padding-top: 2.5vw;
-	padding-bottom: 12px;
+ 	font-size: 0.45vw;
+	padding-top: 2vw;
+	padding-bottom: 1vw;
 	text-align: center;
 	border-bottom: 2px solid #F6F6FB;
 	margin-left:58px;
@@ -314,7 +407,7 @@ padding-left: 0px;
 	font-family: "Antic";
 	font-size: 0.85vw;
 	color: #E7E7E7;
-	padding-top: 7px;
+	padding-top: 0.9vw;
 }
 .simpletxt>h4{
 	font-family: "OpenSans Regular";
@@ -330,19 +423,18 @@ padding-left: 0px;
 	background: none;
 	border: 1px solid #fff;
 	font-family:"OpenSans Regular";
+	font-size:1vw;
 	color: #fff;
-	margin-bottom: 14px;
+	margin-bottom: 1vw;
 }
 .wishtxt{
-	padding-bottom: 42px;
+	padding-bottom: 3vw;
 }
 .wishtxt .paragraph1{
 	font-family: "OpenSans Regular";
 	font-size:11.32px;
 	color: #fff;
 	float: left;
-
-
 }
 .wishtxt .paragraph2{
 	font-family: "OpenSans Regular";
@@ -359,25 +451,196 @@ padding-left: 0px;
 	margin-left:58px;
 	margin-right: 58px;
 	color: #F6F6FB;
-
 }
 .txthover>img{
 	width:100%;
-
 }
 .txthover:hover .txtcontent{
 	opacity: 1;
 }
-@media screen and (min-width: 320px) and (max-width: 766px){
+
+@media (max-width: 1199px){
+
  .stars{
-	padding-top: 20px;
+ 	font-size: 0.7vw;
+	padding-top: 4vw;
+	padding-bottom: 0.7vw;
+
 }
+.simpletxt{
+	margin-top: 2px;
+	margin-left: 58px;
+	margin-right: 58px;
+	padding-top: 30px;
 }
-@media screen and (min-width: 1200px)and (max-width: 1280px){
-.stars{
-	padding-top: 37px;
+.simpletxt>h3{
+	font-family: "Antic";
+	font-size: 2vw;
+	color:#E7E7E7;
+	margin: 0px;
 }
+.simpletxt>p{
+	font-size: 1.2vw;
+	padding-top: 1.2vw;
 }
+.simpletxt>h4{
+	font-size:1.2vw;
+	padding-bottom: 2vw;
+}
+
+.simpletxt>button{
+	font-size:1.2vw;
+	margin-bottom: 2.1vw;
+}
+.wishtxt{
+	padding-bottom: 4.5vw;
+}
+.stars2{
+ 	font-size: 0.7vw;
+	padding-top: 0.7vw;
+	margin-top:0.2vw;
+}
+.txthover>img{
+	width:100%;
+}
+
+
+}
+
+
+
+@media (max-width: 991px){
+
+ .stars{
+ 	font-size: 1vw;
+	padding-top: 6.2vw;
+	padding-bottom: 2vw;
+
+}
+.simpletxt{
+	margin-top: 2px;
+	margin-left: 58px;
+	margin-right: 58px;
+	padding-top: 30px;
+}
+.simpletxt>h3{
+	font-family: "Antic";
+	font-size: 3vw;
+	color:#E7E7E7;
+	margin: 0px;
+}
+.simpletxt>p{
+	font-size: 1.7vw;
+	padding-top: 2.2vw;
+}
+.simpletxt>h4{
+	font-size:1.7vw;
+	padding-bottom: 4vw;
+	padding-top:2vw;
+}
+
+.simpletxt>button{
+	font-size:1.7vw;
+	margin-bottom: 3.1vw;
+}
+.wishtxt{
+	padding-bottom: 5.5vw;
+}
+.wishtxt .paragraph1{
+	font-size:1.4vw;
+}
+.wishtxt .paragraph2{
+	font-size: 1.4vw;
+}
+.stars2{
+ 	font-size: 1vw;
+	margin-top:0.3vw;
+	padding-top:2vw;
+}
+.txthover>img{
+	width:100%;
+}
+
+
+}
+
+
+
+
+@media (max-width: 767px){
+
+ .stars{
+ 	font-size: 1vw;
+	padding-top: 9.2vw;
+	padding-bottom: 2vw;
+	border-bottom: 2px solid #F6F6FB;
+	margin-left:27vw;
+	margin-right: 27vw;
+
+}
+.simpletxt{
+	margin-top: 0.3vw;
+	margin-left: 27vw;
+	margin-right: 27vw;
+	padding-top: 3.6vw;
+}
+.simpletxt>h3{
+	font-size: 3.5vw;
+	margin: 0px;
+}
+.simpletxt>p{
+	font-size: 2vw;
+	padding-top: 3vw;
+}
+.simpletxt>h4{
+	font-size:2vw;
+	padding-bottom: 4vw;
+	padding-top:2vw;
+}
+
+.simpletxt>button{
+	font-size:2vw;
+	margin-bottom: 3.1vw;
+}
+.wishtxt{
+	padding-bottom: 5.5vw;
+}
+.wishtxt .paragraph1{
+	font-size:1.4vw;
+}
+.wishtxt .paragraph2{
+	font-size: 1.4vw;
+}
+.stars2{
+ 	font-size: 1vw;
+	margin-top:0.3vw;
+	padding-top:2vw;
+	margin-left:27vw;
+	margin-right: 27vw;
+
+}
+.txthover>img{
+	width:100%;
+}
+.txthover{
+	padding: 2vw 20vw;
+}
+
+
+}
+
+
+
+@media (max-width: 320px){
+
+ .stars{
+	padding-top: 6.2vw;
+}
+
+
+}
+
+
 /*  -----------------     End Latest Cars Images    ------------------------ */
 /* ------------------ Newsletter Section -----------------------------------*/
 .newslettercontent{
@@ -413,7 +676,7 @@ padding-left: 0px;
 }
 .leftside>p{
 	position: absolute;
-	font-family: "OpenSans Regular";
+	font-family: "Antic";
 	top:47.5%;
 	left: 13.2%;
 	font-size: 20px;
@@ -500,10 +763,28 @@ padding-left: 0px;
 
  }
 
- @media screen and (max-width: 676px){
-.newslettercontent{
-	margin-bottom: 90%;
+
+@media (max-width:1199px){
+	.leftside>h1{
+		font-size: 2.5vw;
+		top:35%;
+	}
+	.leftside>p{
+		font-size: 1.5vw;
+		top:47%;
+		width: 30%;
+	}
+	.rightside>input{
+		font-size: 2vw;
+	}
+	.rightside>button{
+	 	font-size: 2.4vw;
+		letter-spacing: 3px;
+	}
 }
+
+ @media (max-width: 767px){
+
 .rightside>button{
 	left:0%;
 	top:48%;
@@ -513,56 +794,95 @@ padding-left: 0px;
 }
  .leftside>img{
  		transform:rotate(90deg);
- 		width: 100%;
- 		margin-left: 0%;
- 		margin-top:30%;
+ 		width: 80%;
+ 		text-align:center;
+ 		margin-left:10vw;
+ 		margin-top:20vw;
  	}
+
 .leftside>h1{
-	font-size: 13px;
+	font-size:5.5vw;
 	letter-spacing: 4px;
 	text-align: center;
-	top:14%;
-	left: 26%;
+	top:20%;
+	left: 30%;
 }
 .leftside>p{
-	font-size: 12px;
-	top:25%;
-	left: 23%;
-	width: 55%!important;
+	font-size: 2.2vw;
+	top:35%;
+	left: 25%;
+	text-align:center;
+	width: 50% !important;
 }
 .rightside{
 left:0;
-top:90%;
+top:70%;
+width:100%;
+padding:6vw;
 }
 .rightside>input{
 width: 80%;
+font-size:4vw;
 margin-left: 10%;
+margin-top:10%;
 left: 0%;
 }
+.rightside>button{
+	margin-top:5%;
+	}
 }
- @media screen and (max-width: 460px){
- 	.rightside>button{
- 		font-size: 26px;
+
+
+ @media (max-width: 320px){
+
+.rightside>button{
+	left:0%;
+	top:48%;
+	font-size: 31.5px;
+	margin-left: 10%;
+	width: 80%;
+}
+ .leftside>img{
+ 		transform:rotate(90deg);
+ 		width: 80%;
+ 		text-align:center;
+ 		margin-left:10vw;
+ 		margin-top:20vw;
  	}
- }
-@media screen and (max-width:1200px){
-	.leftside>h1{
-		font-size: 16px;
-		top:25%;
-	}
-	.leftside>p{
-		font-size: 14px;
-		top:38%;
-		width: 30%;
-	}
-	.rightside>input{
-		font-size: 20px;
-	}
-	.rightside>button{
-	 	font-size: 27px;
-		letter-spacing: 3px;
+
+.leftside>h1{
+	font-size:5.5vw;
+	letter-spacing: 4px;
+	text-align: center;
+	top:20%;
+	left: 26.5%;
+}
+.leftside>p{
+	font-size: 3.2vw;
+	top:35%;
+	left: 25%;
+	text-align:center;
+	width: 50% !important;
+}
+.rightside{
+left:0;
+top:70%;
+width:100%;
+padding:6vw;
+}
+.rightside>input{
+width: 80%;
+font-size:4vw;
+margin-left: 10%;
+margin-top:10%;
+left: 0%;
+}
+.rightside>button{
+	font-size:3vw;
+	margin-top:10%;
 	}
 }
+
 /*-------------------------------------End Newsletter Section ----------------*/	
 /*-------------------------------------Bottom Menu -----------------------------------------------*/
 
@@ -577,6 +897,7 @@ left: 0%;
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
+  margin-top:2vw;
 }
 
 .footer-distributed .footer-left p {
@@ -643,6 +964,13 @@ left: 0%;
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
 /* Media Queries */
+
+@media (max-width: 767px) {
+	.footer-distributed{
+
+		margin-top:70vw;
+	}
+}
 
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
