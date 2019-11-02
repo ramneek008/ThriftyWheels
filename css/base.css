@@ -47,7 +47,7 @@ body {
 	border-radius: 50%;
 	opacity: 0.4;
 	background: var(--color-link);
-	animation: loaderAnim 0.7s linear infinite alternate forwards;
+	animation: loaderAnim 0.2s linear infinite alternate forwards;
 }
 
 @keyframes loaderAnim {
@@ -121,6 +121,14 @@ a:focus {
 	align-items: center;
 	justify-content: space-between;
 }
+.codrops-header a:hover{
+	text-decoration: none;
+	font-size:2.7vw;
+}
+
+.codrops-header__title:hover{
+	font-size:2.6vw;
+}
 
 .codrops-header__title {
 	font-size: 2.5vw;
@@ -129,7 +137,7 @@ a:focus {
 	text-shadow: 0.1vw 0.1vw white;
 	font-weight: 0;
 	line-height: 1;
-	margin: 0;
+	margin: 0 0 1vw 0;
 }
 
 /* Top Navigation Style */
@@ -139,6 +147,21 @@ a:focus {
 	justify-content: flex-end;
 	align-items: center;
 	white-space: nowrap;
+}
+
+.codrops-links a{
+	color:white;
+	font-family:'Antic';
+	font-size:1vw;
+	font-weight:700;
+	letter-spacing: 0.1vw;
+}
+
+.codrops-links a:hover{
+	color:#C59E47;
+	font-family:'Antic';
+	font-size:1.1vw;
+	text-decoration: none;
 }
 
 .github {
@@ -366,7 +389,7 @@ a:focus {
 
 .content__subtitle {
 	margin: 0 0 0.5rem;
-	font-size: 1rem;
+	font-size: 5rem;
 	font-weight: normal;
 }
 
@@ -468,12 +491,14 @@ a:focus {
 		font-size: 7vw;
 	}
 	.content__subtitle {
-		font-size: 1.15rem;
+		font-size: 1.5vw;
+		font-family:'Antic';
 		margin-bottom: 7.5vh;
 	}
 	.content__text {
-		font-size: 0.95rem;
+		font-size: 1vw;
 		column-count: 2;
+		font-family:'Antic';
 		column-gap: 2rem;
 		max-width: 600px;
 		text-align: justify;
