@@ -734,16 +734,20 @@ font-size: 2vw;
 	}
 
 	.slide__number {
-	font-size: 4vw;
+		display:block;
+	font-size: 7vw;
+	margin-bottom:20vw;
 }
 	.slide__title {
 		font-size: 5vw;
 		margin: 2vw 0 2.4vw 0;
+		display:none;
 	}
 	.slide__subtitle {
 		font-weight: normal;
 		margin: 0;
 		font-size:2.5vw;
+		display:none;
 		min-height: 50px;
 	}
 	.slide__side {
