@@ -4,9 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ThriftyWheels</title>
-		<meta name="description" content="A triple view diagonal slideshow with content preview." />
-		<meta name="keywords" content="" />
-		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -52,13 +49,13 @@
 		</svg>
 		<main>
 			<div class="frame">
-				<header class="codrops-header">
-					<a href="index.html"><h1 class="codrops-header__title">ThriftyWheels</h1></a>
-					<div class="codrops-links">
+				<header class="co-header">
+					<a href="index.html"><h1 class="co-header__title">ThriftyWheels</h1></a>
+					<div class="co-links">
 						<a class="contact" href="contact.html">Contact Us</a>
 					
-						<a class="codrops-icon codrops-icon--drop" href="contact.html">
-							<i class="material-icons" style="font-size:1vw">contact_mail</i>
+						<a class="co-icon co-icon--drop" href="contact.html">
+							<i class="material-icons">contact_mail</i>
 						</a>
 					</div>
 				</header>
@@ -66,9 +63,9 @@
 			<script>
 				$(window).scroll(function() {
   if ($(this).scrollTop() > 140) {
-    $('.codrops-header').slideUp();
+    $('.co-header').slideUp();
   } else {
-    $('.codrops-header').slideDown();
+    $('.co-header').slideDown();
   }
 });
 			</script>
@@ -82,7 +79,7 @@
 					<div class="slide__title-wrap">
 						<span class="slide__number">1</span>
 						<h3 class="slide__title">Rolls Royce</h3>
-						<h4 class="slide__subtitle">A British luxury automobile maker established in 1998.</h4>
+						<h4 class="slide__subtitle">A British luxury automobile maker established in 1998</h4>
 					</div>
 				</div>
 				<div class="slide">
@@ -543,7 +540,7 @@
 					
 				</p>
 
-				<p>ThriftyWheels &copy; 2019</p>
+				<p class="cpyrt">ThriftyWheels &copy; 2019</p>
 			</div>
 
 		</footer>

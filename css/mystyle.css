@@ -28,6 +28,7 @@ body
 	font-size: 41px;
 	text-align:center;
 	color: white;
+	margin-top:1vw;
 	letter-spacing: 2vw;
 	font-weight:600;
 	background-image: radial-gradient(#4d2600,#1a0d00,black,black);
@@ -35,18 +36,19 @@ body
 
 
 
+@media (max-width:767px){
 
-@media screen and (min-width: 320px) and (max-width: 480px){
 	.feturedsection>h1{
-	font-size: 15pt;
-	padding-top: 20px;
-	padding-bottom: 20px;
- 
+	font-size: 5vw;
+	margin-top:2vw;
 }
 }
-@media screen and (min-width: 480px) and (max-width: 640px){
+
+@media (max-width:320px){
+
 	.feturedsection>h1{
-	font-size: 20pt;
+	font-size: 7vw;
+	margin-top:3vw;
 }
 }
 
@@ -334,27 +336,19 @@ body
 	background-image: radial-gradient(#4d2600,#1a0d00,black,black);
 }
 
+@media (max-width:767px){
 
-
-@media screen and (min-width: 480px) and (max-width: 640px){
-	.latestcars h1{
-	font-size: 20pt;
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px){
-	.latestcars h1{
-	font-size: 15pt;
-	padding-top: 20px;
-	padding-bottom: 20px;
- 
+	.latestcars>h1{
+	font-size: 5vw;
 }
 }
 
+@media (max-width:320px){
+
+	.latestcars>h1{
+	font-size: 7vw;
 }
-
-
-
-
+}
 
 
 /*-----------------------------------Image Car Thumbnail --------------------------*/
@@ -509,7 +503,7 @@ body
 
 
 
-@media (max-width: 991px){
+@media (min-width:768px) and (max-width: 991px){
 
  .stars{
  	font-size: 1vw;
@@ -631,12 +625,23 @@ body
 
 
 
-@media (max-width: 320px){
+@media (min-width:0px) and (max-width: 320px){
+
+
 
  .stars{
-	padding-top: 6.2vw;
-}
+ 	font-size: 1vw;
+	padding-top: 6vw;
+	padding-bottom: 2vw;
+	border-bottom: 2px solid #F6F6FB;
+	margin-left:27vw;
+	margin-right: 27vw;
 
+}
+.wishtxt .paragraph2{
+	font-size: 1.4vw;
+	display:none;
+}
 
 }
 
@@ -933,7 +938,7 @@ left: 0%;
   display: inline-block;
   line-height: 1.8;
   text-decoration: none;
-  font-size:1.2vw;
+  font-size:18px;
   font-family: 'Bubbler One';
   color: #d4b777;
   transition: ease .25s;
@@ -987,6 +992,16 @@ left: 0%;
 	.footer-distributed{
 		margin-top:70vw;
 	}
+	.footer-distributed p.footer-links, .footer-distributed2 p.footer-links {
+  font-size: 15px;
+}
+.footer-distributed p.footer-links a, .footer-distributed2 p.footer-links a {
+  font-size:15px;
+}
+.footer-distributed p.cpyrt, .footer-distributed2 p.cpyrt{
+  font-size: 12px;
+}
+
 }
 
 @media (max-width: 600px) {
