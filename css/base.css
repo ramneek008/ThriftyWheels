@@ -586,6 +586,10 @@ font-size: 2vw;
 	.slide__side {
 		display: block;
 	}
+
+	.slide__number {
+	font-size: 2rem;
+}
 	.slide__title {
 		font-size: 3vw;
 		margin: 1vw 0 1.2vw 0;
@@ -714,6 +718,10 @@ font-size: 2vw;
 	.slide__side {
 		display: block;
 	}
+
+	.slide__number {
+	font-size: 4vw;
+}
 	.slide__title {
 		font-size: 5vw;
 		margin: 2vw 0 2.4vw 0;
