@@ -1,2 +1,4 @@
 # ThriftyWheels
-A car website
+A fully responsive car website.
+
+
