@@ -1,0 +1,101 @@
+
+.fadeinLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+
+
+
+.fadeinRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+
+@keyframes fadeInRight {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(100px);
+        transform: translatex(100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+}
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(30px);
+        transform: translatey(30px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+.in-up {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-delay:1s;
+}
+
+
+
