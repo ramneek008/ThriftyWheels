@@ -47,15 +47,26 @@ body {
 	border-radius: 50%;
 	opacity: 0.4;
 	background: var(--color-link);
-	animation: loaderAnim 0.2s linear infinite alternate forwards;
+	animation: loaderAnim 0.7s infinite ease-in-out;
 }
 
-@keyframes loaderAnim {
+/*@keyframes loaderAnim {
 	to {
 		opacity: 1;
 		transform: scale3d(0.5,0.5,1);
 	}
+}*/
+
+@keyframes loaderAnim {
+  0%, 100% { 
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
 }
+
 
 a {
 	text-decoration: none;
