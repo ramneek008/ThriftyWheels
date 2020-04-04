@@ -284,32 +284,6 @@
 <br>
 
 
-<script>
-	function isScrolledIntoView(elem) {
-	  var docViewTop = $(window).scrollTop();
-	  var docViewBottom = docViewTop + $(window).height();
-
-	  var elemTop = $(elem).offset().top;
-	  var elemBottom = elemTop +100;
-
-	  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-  }
-
-  $(window).scroll(function(){
-
-	  if (isScrolledIntoView('.feturedsection') === true) {
-		  $('.feturedsection h1').addClass('fade-in')
-	  }
-
-	  if (isScrolledIntoView('.fi') === true) {
-		  $('.fi').addClass('fade-in');
-		  $('.b1').addClass('fadeinLeft');
-		  $('.b2').addClass('fadeinRight');
-	  }
-
-
-  });
-</script>
 
 
 	<div class="grid" style="opacity:0">
@@ -556,17 +530,59 @@
 		</div>
 	</div>
 
+<script>
+	  function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop +100;
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    $(window).scroll(function(){
+
+        if (isScrolledIntoView('.feturedsection') === true) {
+            $('.feturedsection h1').addClass('fade-in')
+        }
+
+        if (isScrolledIntoView('.fi') === true) {
+        	$('.fi').addClass('fade-in');
+            $('.b1').addClass('fadeinLeft');
+            $('.b2').addClass('fadeinRight');
+        }
+
+         if (isScrolledIntoView('.latestcars') === true) {
+            $('.latestcars h1').addClass('fade-in')
+        }
+
+        if (isScrolledIntoView('.grid') === true) {
+        	$('.grid').addClass('in-up');
+        }
+
+        if (isScrolledIntoView('.newslettercontent') === true) {
+        	$('.leftside').addClass('fadeinLeft');
+        	$('.rightside').addClass('fadeinRight');
+        }
+        if (isScrolledIntoView('.footer-distributed') === true) {
+        	$('.footer-distributed').addClass('in-up');
+        }
+
+    });
+</script>
 
 </div>
 
 		<footer class="footer-distributed" style="opacity: 0">
 
 			<div class="footer-right">
-
+				<a href="https://github.com/ramneek008"><i class="fa fa-github"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
 				<a href="#"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				
+				
 
 			</div>
 
@@ -579,7 +595,7 @@
 					
 				</p>
 
-				<p class="cpyrt">ThriftyWheels &copy; 2019</p>
+				<p class="cpyrt">ThriftyWheels &copy; 2020</p>
 			</div>
 
 		</footer>
