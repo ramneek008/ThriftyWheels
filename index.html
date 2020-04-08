@@ -64,6 +64,10 @@
 				</header>
 			</div>
 			<script>
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
+
 				$(window).scroll(function() {
   if ($(this).scrollTop() > 140) {
     $('.co-header').slideUp();
@@ -532,6 +536,7 @@
 	</div>
 
 <script>
+
 	  function isScrolledIntoView(elem) {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
@@ -591,7 +596,7 @@
 
 				<p class="footer-links">
 					Designed By : 
-					<a class="link-1" href="https://www.linkedin.com/in/ramneek-singh-265765191/">Ramneek Singh</a>
+					<a class="link-1" href="#">Team Webbers (Ramneek, Vishal)</a>
 
 					
 				</p>
